@@ -1,5 +1,7 @@
-# BDSTL
+﻿# BDSTL
 Bringing Dead Switches to Life
+
+This line of text was made in the dev branch.  It is hopefully invisible from master.
 
 ## Inspiration
 The Museum of Flight in Seattle has a few "sit in cockpit" exhibits. You can climb into an actual jet cockpit, settle into the seat, grab the stick, turn some knobs ..... and nothing happens.  What if you wore an AR headset that could "paint over" the gauges and make them come to life?  What i you could paint over the windshield to render the simulator world running past you, pitching and rolling as yank and bank on the stick?  What if this could be done without making any physical changes to the exhibit?
