@@ -348,6 +348,7 @@ GameObject:
   - 23: {fileID: 599613422}
   - 114: {fileID: 599613425}
   - 114: {fileID: 599613426}
+  - 114: {fileID: 599613427}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -365,10 +366,9 @@ Transform:
   m_LocalPosition: {x: 0, y: -0.011, z: 0}
   m_LocalScale: {x: 0.18166666, y: 0.026666667, z: 0.14}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1496915636}
+  m_Children: []
   m_Father: {fileID: 569224469}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!23 &599613422
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 599613420}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edb4c5609a7293048bbdd57207f4757b, type: 3}
   m_Name: 
@@ -437,6 +437,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f91953d5acbf54a49a534e3cf15ced57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &599613427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 599613420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2fca4dd30759740be57da8abc542cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &886356343
@@ -717,6 +728,7 @@ GameObject:
   - 33: {fileID: 1496915635}
   - 65: {fileID: 1496915634}
   - 23: {fileID: 1496915633}
+  - 114: {fileID: 1496915637}
   m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
@@ -779,12 +791,23 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1496915632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.37155962, y: 0.62, z: 0.05713247}
-  m_LocalScale: {x: 0.17431194, y: 0.62499994, z: 0.107142836}
+  m_LocalPosition: {x: 0.067499995, y: 0.005533322, z: 0.007998546}
+  m_LocalScale: {x: 0.031666666, y: 0.016666666, z: 0.014999998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 599613421}
-  m_RootOrder: 0
+  m_Father: {fileID: 569224469}
+  m_RootOrder: 4
+--- !u!114 &1496915637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1496915632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2fca4dd30759740be57da8abc542cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1503261208 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 154114, guid: c8685776cafe5d24493303e077fffcfb, type: 2}
