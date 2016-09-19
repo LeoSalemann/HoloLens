@@ -22,14 +22,12 @@ Ran into a Visual Studio Build error, unable to find Assembly-CSharp.dll. Happen
 Grateful to Seattle VR, Slack, and Devpost for providing such a cool venue for my idea!
 
 ## What I learned
-Choose your Hololense Tutorials carefully. The best one I found so far is Holograms 101e. Includes some sample Unity Projects which are well-configured for Hololense use.
+Choose your Hololense Tutorials carefully. The best one I found so far is Holograms 101e. Includes some sample Unity Projects which are well-configured for HoloLens use.
 
 A USB-enabled game pad was very helpful. 
 
 ## Useful Links 
 [Holograms 101E: Best Unity/HoloLens Course Ever!] (https://developer.microsoft.com/en-us/windows/holographic/holograms_101e)
-
-
 [Unity - Colliders as Triggers] (https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers)
 
 ## What's next for Bringing Dead Switches To Live (BDSTL)
@@ -40,7 +38,7 @@ The *real* workflow would work something like this ....
 1) Start with a holographic twin, like what I made.
 2) Move and place it to correlate with the physial, like I did.
 4) Turn the rendering off, leave the collision volumes there.
-5) All the ineractivity happens by colliding gaze with collision volumes.  Button-moving has nothing to do with it ....
+5) All the interactivity happens by colliding gaze with collision volumes.  Button-moving has nothing to do with it ....
 6) Although, it might be nice if you could see holographic switches move, but none of this free-floating stuff.  The holo-switch would move (toggle flips, sliders slides) and you "chase it" with the physical switches.
 
-See my backlog list on my trello.  Also, would like to transiton to Submarine and Aircraft projects.
+See my backlog list on my Trello.  Also, would like to transition to Submarine and Aircraft projects.
