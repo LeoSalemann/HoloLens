@@ -26,11 +26,12 @@ Other challenges I ran into along the way are listed below:
 
 ## Accomplishments that I'm proud of
 - Went from zero HoloLens development experience to a workable prototype. Thank you Seattle VR Hackthon for putting on a Unity workshop beforehand, and loaning out a Surface Pro!
+- I was quite pleased with the level of physical/holographic spatial correlation that I could achieve. Sticking with simple shapes that were easy to measure helped a lot.  The glowing wireframe material made it easy to see the phystical object and its hologrpahic twin at the same time. In unity, I left the size of my objects at 1,1,1 (one meter cube) and used the Scale attribute to set actual size.
 - Grateful to Seattle VR, Slack, and Devpost for providing such a cool venue for my idea!
 
 ## What I learned
 - Choose your HoloLens Tutorials carefully. The best one I found so far is [Holograms 101e](https://developer.microsoft.com/en-us/windows/holographic/holograms_101e). Includes some sample Unity Projects which are well-configured for HoloLens use.
-- A USB-enabled game pad was very helpful. 
+- A USB-enabled game pad was very helpful when running the emulator.  Navigation is much easier, as is object manipulation.
 
 ## Useful Links 
 [Holograms 101E: Best Unity/HoloLens Course Ever!] (https://developer.microsoft.com/en-us/windows/holographic/holograms_101e)
@@ -38,7 +39,11 @@ Other challenges I ran into along the way are listed below:
 
 ## What's next for Bringing Dead Switches To Live (BDSTL)
 
-** Maybe I only need collision volumes ...
+### Use Voice Comands Instead of Hand Gestures.
+Staring at the holograhic slider button while you move the physical one is not a good user experience.  It would probably be better to use a speeach commannd to "tell" HoloLense what you're doing to the phyical switch, so it can update the hologrpahic twin.
+
+
+### Maybe I only need collision volumes ...
 
 The *real* workflow would work something like this ....
 1) Start with a holographic twin, like what I made.
@@ -47,4 +52,7 @@ The *real* workflow would work something like this ....
 5) All the interactivity happens by colliding gaze with collision volumes.  Button-moving has nothing to do with it ....
 6) Although, it might be nice if you could see holographic switches move, but none of this free-floating stuff.  The holo-switch would move (toggle flips, sliders slides) and you "chase it" with the physical switches.
 
-See my backlog list on my Trello.  Also, would like to transition to Submarine and Aircraft projects.
+
+### tbd
+### Also .. 
+See my backlog list on my [Trello](https://trello.com/b/QwxWMQT6/bring-dead-switches-to-life).  Also, would like to transition to Submarine and Aircraft projects.
