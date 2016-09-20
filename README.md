@@ -1,5 +1,4 @@
-﻿# BDSTL
-Bringing Dead Switches to Life
+﻿# BDSTL Bringing Dead Switches to Life
 A Seattle VR Hackathon Project, September 16-18, 2016
 
 ## Inspiration
