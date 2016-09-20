@@ -34,25 +34,17 @@ Other challenges I ran into along the way are listed below:
 - A USB-enabled game pad was very helpful when running the emulator.  Navigation is much easier, as is object manipulation.
 
 ## Useful Links 
-[Holograms 101E: Best Unity/HoloLens Course Ever!] (https://developer.microsoft.com/en-us/windows/holographic/holograms_101e)
-[Unity - Colliders as Triggers] (https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers)
+- [Holograms 101E: Best Unity/HoloLens Course Ever!] (https://developer.microsoft.com/en-us/windows/holographic/holograms_101e)
+
+- [Unity - Colliders as Triggers] (https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers)
 
 ## What's next for Bringing Dead Switches To Live (BDSTL)
 
 ### Use Voice Comands Instead of Hand Gestures.
 Staring at the holograhic slider button while you move the physical one is not a good user experience.  It would probably be better to use a speeach commannd to "tell" HoloLense what you're doing to the phyical switch, so it can update the hologrpahic twin.
 
+### Integrate Additional HW to Enable Hand/Finger Tracking.
+Leap motion would be a candidate.  Kind of torn between this and the simplicity of a single device, and seeing just how far I can push HoloLense by iteslf.
 
-### Maybe I only need collision volumes ...
-
-The *real* workflow would work something like this ....
-1) Start with a holographic twin, like what I made.
-2) Move and place it to correlate with the physical, like I did.
-4) Turn the rendering off, leave the collision volumes there.
-5) All the interactivity happens by colliding gaze with collision volumes.  Button-moving has nothing to do with it ....
-6) Although, it might be nice if you could see holographic switches move, but none of this free-floating stuff.  The holo-switch would move (toggle flips, sliders slides) and you "chase it" with the physical switches.
-
-
-### tbd
 ### Also .. 
-See my backlog list on my [Trello](https://trello.com/b/QwxWMQT6/bring-dead-switches-to-life).  Also, would like to transition to Submarine and Aircraft projects.
+See my backlog list on my [Trello](https://trello.com/b/QwxWMQT6/bring-dead-switches-to-life).
