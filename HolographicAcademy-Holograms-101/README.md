@@ -1,1 +1,0 @@
-This project is built from the code base associated with the Holograms 101 course at [https://developer.microsoft.com/en-us/windows/holographic/holograms_101e].  It contains all the conent from all the chapters, plus numerous modifications to achive the BDSTL goals.
