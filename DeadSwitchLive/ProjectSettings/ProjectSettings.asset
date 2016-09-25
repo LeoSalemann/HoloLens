@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Holographic Academy
+  companyName: Fall 2016 Seattle VR Hackathon
   productName: DeadSwitchLive
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -349,9 +349,9 @@ PlayerSettings:
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: Holographic Academy
-  metroCertificateIssuer: Holographic Academy
-  metroCertificateNotAfter: 8029d9540936d301
+  metroCertificateSubject: Fall 2016 Seattle VR Hackathon
+  metroCertificateIssuer: Fall 2016 Seattle VR Hackathon
+  metroCertificateNotAfter: 0022eb101336d301
   metroApplicationDescription: Test
   wsaImages:
     65636: 
